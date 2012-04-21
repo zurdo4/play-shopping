@@ -5,11 +5,20 @@
 # Home page
 GET     /                                       Application.index
 
+
+GET		/account								Account.index
+GET		/account/logout							Account.logout
+POST	/account/login							Account.validateLogin
+
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
+
+# Management
+*      /admin              module:crud
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}

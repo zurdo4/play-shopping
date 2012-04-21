@@ -1,0 +1,6 @@
+Listening for transport dt_socket at address: 8000
+09:37:59,255 INFO  ~ Starting C:\Users\daperez\java-dev\Aplicaciones\play-shopping
+09:37:59,255 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.crud)
+09:37:59,255 INFO  ~ Module crud is available (C:\Users\daperez\java-dev\play-1.2.4\modules\crud)
+09:38:00,051 WARN  ~ You're running Play! in DEV mode
+09:38:00,285 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...

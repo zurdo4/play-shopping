@@ -1,0 +1,11 @@
+<div class="session">
+#{if session.username}
+Logged in as ${session.username}
+<br>
+<a href="@{Account.logout}">Logout</a>
+
+#{/if}
+#{else}
+Not logged in
+#{/else}
+</div>
