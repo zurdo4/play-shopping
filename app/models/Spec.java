@@ -39,10 +39,14 @@ public class Spec extends Model {
 		return idspec;
 	}
 	
+	public String toString(){
+		return dsspec;
+	}
 	
+	/*
     @ManyToMany
     @JoinTable(name="product_spec", joinColumns={ @JoinColumn(name= "idspec") }, inverseJoinColumns={ @JoinColumn(name="idproduct")})
     public Set<Spec> specs;
-		
+		*/
 
 }

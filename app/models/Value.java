@@ -24,10 +24,11 @@ public class Value extends Model {
 	public String dsvalue;
 	public String txvalue;
 	
+	/*
 	@ManyToOne(fetch=FetchType.EAGER)
 	@JoinColumn(name="idspec")
 	public Spec spec;
-	
+	*/
 	
 	@Override
 	public Long getId() {
@@ -38,11 +39,16 @@ public class Value extends Model {
 		return idvalue;
 	}
 	
+	public String toString(){
+		return dsvalue;
+	}
 
+	
+	/*
     @ManyToMany
     @JoinTable(name="sku_value", joinColumns={ @JoinColumn(name= "idvalue") }, inverseJoinColumns={ @JoinColumn(name="idsku")})
     public Set<Sku> skus;
-		
+		*/
 	
 	
 	

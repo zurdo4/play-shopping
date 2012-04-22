@@ -24,6 +24,10 @@ public class Warehouse extends Model {
 	public String txwarehouse;
 	
 	
+	public String toString(){
+		return dswarehouse;
+	}
+	
 	@ManyToMany
 	@JoinTable(name="sku_warehouse",joinColumns={@JoinColumn(name="idwarehouse")},inverseJoinColumns={@JoinColumn(name="idsku")})
 	public Set<Sku> skus;

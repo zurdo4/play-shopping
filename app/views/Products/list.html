@@ -13,11 +13,11 @@
         #{crud.table fields:['dsproduct', 'suppliers'] }
         
         #{crud.custom 'suppliers'}
-         <select>
+         <select disabled="disabled"  size="4">
       %{ object.suppliers.each() { }%
       
        <option value="${it._key()}">${it}</option>
-    
+     
       
       %{ } }%
         </select>

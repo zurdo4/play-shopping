@@ -10,7 +10,7 @@ import play.db.jpa.GenericModel;
 public abstract class Model 
 	 extends GenericModel {
 
-
+		
 		    public abstract Long getId();
 
 		    @Override

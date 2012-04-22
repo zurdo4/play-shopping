@@ -30,6 +30,10 @@ public class Product extends Model {
     public Object _key() {
         return idporduct;
     }
+    
+    public String toString(){
+    	return dsproduct;
+    }
 
     @ManyToMany
     @JoinTable(name="product_spec", joinColumns={ @JoinColumn(name= "idproduct") }, inverseJoinColumns={ @JoinColumn(name="idspec")})

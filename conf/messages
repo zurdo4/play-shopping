@@ -1,3 +1,54 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
 #
+product=Producto
+products=Productos
+Products=Productos
+Product=Producto
+Products=Productos
+Products=Productos
+dsproduct=Nombre
+txproduct=Descripción
+
+category=Categoría
+categorys=Categorías
+categories=Categorias
+Category=Categoría
+Categorys=Categorías
+Categories=Categorias
+dscategory=Nombre
+txcategory=Descripción
+
+supplier=Proveedor
+suppliers=Proveedores
+Supplier=Proveedor
+Suppliers=Proveedores
+dssupplier=Nombre
+txsupplier=Descripción
+
+warehouse=Almacén
+warehouses=Almacénes
+Warehouse=Almacén
+Warehouses=Almacénes
+dswarehouse=Nombre
+txwarehouse=Descripción
+
+Values=Valores
+Value=Valor
+value=Valor
+values=Valores
+dsvalue=Descripción
+txvalue=Descripción Larga
+
+price=Precio
+Price=Precio
+
+Spec=Especificación
+spec=Especificación
+Specs=Especificaciones
+specs=Especificaciones
+dsspec=Descripción
+txspec=Descripción Larga
+
+
+Size=Talla

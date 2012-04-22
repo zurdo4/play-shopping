@@ -23,6 +23,10 @@ public class Category extends Model {
     public Long getId() {
         return idcategory;
     }
+    
+    public String toString(){
+    	return dscategory;
+    }
 
     @Override
     public Object _key() {
